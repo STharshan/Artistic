@@ -6,21 +6,25 @@ import "aos/dist/aos.css";
 
 const services = [
   {
-    title: "Alloy Wheel Repair",
-    desc: `Remove scuffs, scratches, and damage for wheels that look brand new.`,
+    title: "Detailing",
+    desc: `Showroom shine that protects your paint and makes your car stand out.
+`,
     image: "/carpaint.avif",
     path: "/services/mechanical",
   },
   {
-    title: "Dent Removal",
-    desc: `Seamless dent repair to restore panels back to factory condition.
+    title: "Paint Correction",
+    desc: `
+Polish out swirls and imperfections for a deep mirror gloss.
+
 ​`,
     image: "/gray.avif",
     path: "/services/service",
   },
   {
-    title: "Bumper Repair",
-    desc: `Repair cracked or scuffed bumpers to a smooth, like-new finish.`,
+    title: "Valeting",
+    desc: `Affordable, convenient cleaning to give your car a fresh showroom look.
+`,
     image: "/carmechanic.avif",
     path: "/services/mot",
   },
@@ -149,10 +153,10 @@ const ServiceSection = () => {
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="absolute inset-0 w-[95%] mt-15 mx-auto h-55 object-cover"
+                    className="absolute inset-0 w-[75%] mt-15 mx-auto h-45 rounded-xl object-cover"
                     onError={(e) => {
                       e.currentTarget.onerror = null;
-                      e.currentTarget.src = "/logo.png"; // fallback logo
+                      e.currentTarget.src = "/logo.jpg"; // fallback logo
                     }}
                   />
 

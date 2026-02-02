@@ -14,8 +14,8 @@ const AboutSection = () => {
 
   const testimonials = [
   {
-    text: "Wow, so glad I didn't listen to negative reviews.Absolutely amazing job done. 1st class service, communication and quality work at a fantastic price, answered any questions promptly.100% use again and highly recommend. 5* plus.",
-    name: "Amy Mccarty",
+    text: "Just picked my car up from Craig after he even worked on Boxing Day to get it finished for me. Brilliant job of a full detailing, track PPF, ceramic coating and Radiator grills fitted. Great communication, very friendly, knowledgeable and with attention to detail second to none. Highly recommended.",
+    name: "Duncan Deaves",
   },
 
 ]
